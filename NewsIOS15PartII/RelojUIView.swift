@@ -9,8 +9,11 @@ import SwiftUI
 
 struct RelojUIView: View {
     
+    @AppStorage("reloj") var clock: String = "sin hora"
+    
     let color: [Color] = [.red, .green, .blue, .purple, .yellow, .pink]
     let emoji = ["🐶","🐱","🐰","🦊","🐸","🐤"]
+    
     
     var body: some View {
         TimelineView(PeriodicTimelineSchedule(from: Date(), by: 1)) { _ in
@@ -25,6 +28,11 @@ struct RelojUIView: View {
                 .foregroundColor(color.randomElement())
             Text(emoji.randomElement() ?? "")
                 .scaleEffect(2)
+            Button("Capturar Hora"){
+                clock = time
+            }
+            Text("La Hora es : \(clock)")
+                .font(.largeTitle)
         }
     }
 }
