@@ -12,7 +12,7 @@ struct NewsIOS15PartIIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            MapaUIView()
+            RelojUIView()
         }
     }
 }
