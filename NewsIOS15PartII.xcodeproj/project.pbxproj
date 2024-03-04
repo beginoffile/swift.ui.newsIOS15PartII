@@ -11,6 +11,7 @@
 		05B0161D2B955A0400E16032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0161C2B955A0400E16032 /* ContentView.swift */; };
 		05B0161F2B955A0600E16032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B0161E2B955A0600E16032 /* Assets.xcassets */; };
 		05B016222B955A0600E16032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B016212B955A0600E16032 /* Preview Assets.xcassets */; };
+		05B0162B2B95647F00E16032 /* MapaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0162A2B95647F00E16032 /* MapaUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		05B0161C2B955A0400E16032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05B0161E2B955A0600E16032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B016212B955A0600E16032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05B0162A2B95647F00E16032 /* MapaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				05B0161C2B955A0400E16032 /* ContentView.swift */,
 				05B0161E2B955A0600E16032 /* Assets.xcassets */,
 				05B016202B955A0600E16032 /* Preview Content */,
+				05B0162A2B95647F00E16032 /* MapaUIView.swift */,
 			);
 			path = NewsIOS15PartII;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B0162B2B95647F00E16032 /* MapaUIView.swift in Sources */,
 				05B0161D2B955A0400E16032 /* ContentView.swift in Sources */,
 				05B0161B2B955A0400E16032 /* NewsIOS15PartIIApp.swift in Sources */,
 			);
